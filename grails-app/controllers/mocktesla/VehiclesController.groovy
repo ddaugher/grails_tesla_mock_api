@@ -66,7 +66,7 @@ class VehiclesController extends ExceptionHandler {
     def climate_state() {
         checkCookies(request)
         def output = [
-            inside_temp: 17.0,          // degC inside car
+            inside_temp: 65.0,          // degC inside car
             outside_temp: 9.5,          // degC outside car or null
             driver_temp_setting: 22.6,  // degC of driver temperature setpoint
             passenger_temp_setting: 22.6, // degC of passenger temperature setpoint
