@@ -1,0 +1,2 @@
+./grailsw run-app
+
